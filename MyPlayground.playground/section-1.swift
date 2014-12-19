@@ -33,3 +33,9 @@ var iPhone = NSMutableAttributedString(string: "iPhone")
 iPhone.addAttribute(NSFontAttributeName, value: UIFont(name: "Futura", size: 48)!, range: NSMakeRange(0, 6))
 iPhone.addAttribute(NSForegroundColorAttributeName, value: UIColor.blueColor(), range: NSMakeRange(0, 6))
 
+
+for x in 0...255 {
+    let t = Double(x) * sin(Double(x) * M_PI_4/4 )
+}
+
+let pi = 3.1415926
